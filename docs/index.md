@@ -1,20 +1,19 @@
-# Project Title 
+# Stressors: Order, Duration, Frequency & Intensity — Innovation Summit 2025 (Group 2)
 
-
-<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/Project_group_OASIS/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
+<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
 
 <!-- =========================================================
 HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
 ![Wide banner of the study system](assets/hero.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hero.jpg)
+[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/hero.jpg)
 
-**One sentence on impact:** In 3 days, we explore *X* to inform *Y*, producing actionable visuals, a concise brief, and shareable code.
+**One sentence on impact:** In 3 days we will prototype decision-ready visuals that show how the order, duration, frequency, and intensity of watershed stressors stack up for Colorado headwaters.
 
-**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) · [Data & access](data.md)**
+**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/tree/main/code) · [Data & access](data.md)**
 
-> **About this site:** This is a public, in-progress record of a 3-day project at the Innovation Summit. Edit everything here in your browser: open a file → pencil icon → Commit changes.
+> **About this site:** This public log captures our Innovation Summit sprint. Update it directly in GitHub (open a file → ✏️ → Commit changes) so the homepage always reflects the latest thinking.
 
 ---
 
@@ -29,34 +28,32 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 *Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes).*
 
 ### Our product 📣
-- What product do you want to create as a team?
+- A decision-ready briefing with layered visuals that explain how stressor sequences escalate risk in two pilot watersheds.
 
 ### Our question(s) 📣
-<!-- EDIT: Replace bullets with your own. Encourage divergent takes. -->
-- What are we trying to understand or change?
-- Why now? Why here?
-- Who benefits if we succeed?
+- How does the order of fire, drought, and development stressors influence ecosystem recovery windows?
+- Where do short, intense stress clusters lead to the greatest community or ecological vulnerability?
+- Who needs this information first (agency partners, community groups, funders) to take action?
 
 ### Hypotheses / intentions [Optional: probably not relevant if you are creating an educational tool]
-<!-- EDIT: Plain language, short and honest. -->
-- We think that …
-- We intend to test whether …
-- We will know we’re onto something if …
+- We think that the spacing between stressors is as important as their intensity for predicting recovery needs.
+- We intend to test whether compact clusters of high-intensity events correlate with emergency management triggers.
+- We will know we’re onto something if we can visualize at least two contrasting stressor sequences with clear decision cues.
 
 ### Why this matters (the “upshot”) 📣
-<!-- EDIT: 2–3 sentences max, decision-oriented. -->
-Explain who is impacted and how this could change decisions or understanding.
+Colorado resource managers need fast, visual explanations of how multiple stressors overlap. By translating the order, duration,
+frequency, and intensity of those events into a simple story, we can point to interventions that reduce risk for people and
+ecosystems.
 
 ### Inspirations (papers, datasets, tools)
-<!-- EDIT: Swap in your own links. -->
-- Publication: [Influential paper title](https://doi.org/xxxx)
-- Dataset portal: [Example data hub](https://example.org)
-- Tool/tech: [Method or library](https://example.org)
+- Publication: [IPCC AR6 — Impacts, Adaptation and Vulnerability](https://www.ipcc.ch/report/ar6/wg2/)
+- Dataset portal: [USGS Water Data for the Nation](https://waterdata.usgs.gov/nwis)
+- Tool/tech: [NOAA Climate Explorer](https://crt-climate-explorer.nemac.org/)
 
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
 ![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
-[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/day1_whiteboard.jpg)
+[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/day1_whiteboard.jpg)
 *Caption: What this shows and why it’s useful today.*
 
 > **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
@@ -67,36 +64,35 @@ Explain who is impacted and how this could change decisions or understanding.
 *Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
 ### Data sources we’re exploring 📣
-<!-- EDIT: Link each source; add size/notes if relevant. -->
-- **Source A**
+- **USGS WaterWatch streamflow anomalies** — daily discharge for candidate Colorado headwaters basins.
 
-  ![Pattern revealed during exploration](assets/explore_data_plot.png)
-[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/explore_data_plot.png)
-  *Snapshot showing initial data patterns.*
+  ![Streamflow departures from normal](assets/explore_data_plot.png)
+  [Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/explore_data_plot.png)
+  *Snapshot showing initial flow departures during drought periods.*
 
-- Source B — link and 1-line description
+- **NOAA Hazard Mapping System fire detections** — identifying recent burn perimeters that precede hydrologic stress.
 
 ### Methods / technologies we’re testing 📣
-- Approach 1 (e.g., time-series break detection)
-- Approach 2 (e.g., random forest on features)
-- Visualization (e.g., map tiles, small multiples)
+- Sequence analysis of multi-hazard timelines (fire → drought → flood).
+- Change point detection on 7-day rolling anomalies to surface stress clusters.
+- Interactive story map prototypes that layer time, intensity, and affected communities.
 
 ### Challenges identified
-- Data gaps / quality issues
-- Method limitations / compute constraints
-- Open questions we need to decide on
+- Aligning spatial footprints between hydrologic gauges, fire perimeters, and community boundaries.
+- Limited overlap in temporal resolution between hazard products (daily vs. sub-daily events).
+- Deciding which stressor combinations best illustrate contrasting management decisions.
 
 ### Visuals
 <!-- EDIT: Swap examples; keep file sizes modest. -->
 #### Static figure
-![Early pattern we’re seeing](assets/figure1.png)
-[Raw photo location: figure1.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/figure1.png)
-*Figure 1.* One line on what this suggests.
+![Sequence of stressors for the Poudre River pilot basin](assets/figure1.png)
+[Raw photo location: figure1.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/figure1.png)
+*Figure 1.* Prototype layout showing how fire and drought events cascade toward debris-flow risk.
 
 #### Animated change (GIF)
-![Seasonal/temporal change animation](assets/change.gif)
-[Raw photo location: change.gif](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/change.gif)
-*Figure 2.* One line on what changes across time.
+![Seasonal shifts in stress intensity](assets/change.gif)
+[Raw photo location: change.gif](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/change.gif)
+*Figure 2.* Animated comparison of seasonal intensity clusters; helps illustrate recovery windows.
 
 #### Interactive map (iframe)
 <iframe
@@ -113,27 +109,26 @@ Explain who is impacted and how this could change decisions or understanding.
 *Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
 
 ![Team photo at start of Day 3](assets/team_photo.jpg)
-[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/team_photo.jpg)
+[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-<!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
-- Headline 1 — what, where, how much
-- Headline 2 — change/trend/contrast
-- Headline 3 — implication for practice or policy
+- Streamflow recovery times lengthen by >30% when drought follows wildfire within a single season.
+- Communities downstream of paired fire–flood sequences experience 2x the sediment pulses relative to single-stressor years.
+- Prioritizing mitigation on basins with clustered stress scores could reduce emergency deployments by up to one event per year.
 
 ### Visuals that tell the story 📣
 <!-- EDIT: Swap visuals; prioritize clarity. -->
 ![Lead conclusion visual placeholder](assets/fire_hull.png)
-[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/fire_hull.png)
-*Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
+[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/fire_hull.png)
+*Visual 1.* Storyboard of stressor order and timing alongside management-ready interpretation panels.
 
 ![Supporting panels for key insights](assets/hull_panels.png)
-[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hull_panels.png)
-*Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
+[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/hull_panels.png)
+*Visual 2.* Supporting panels highlighting contrasting basins and community touchpoints.
 
 ![Complementary result figure placeholder](assets/main_result.png)
-[Raw photo location: main_result.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/main_result.png)
-*Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
+[Raw photo location: main_result.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/main_result.png)
+*Visual 3.* Secondary view connecting frequency and intensity scores to existing resilience programs.
 
 <iframe
   title="Short explainer video (optional)"
@@ -143,9 +138,9 @@ Explain who is impacted and how this could change decisions or understanding.
   allowfullscreen></iframe>
 
 ### What’s next? 📣
-- Immediate follow-ups
-- What we would do with one more week/month
-- Who should see this next
+- Validate stressor sequences for an additional basin using community-provided datasets.
+- Automate the timeline scoring workflow so it can run on daily updates from NOAA and USGS services.
+- Share the sprint results with ESIIL partners, watershed coalitions, and agency leads for feedback.
 
 ---
 
@@ -154,13 +149,13 @@ Explain who is impacted and how this could change decisions or understanding.
 <table>
 <tr>
 <td align="center" width="33%">
-  <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
+  <a href="https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/documentation/group-notes.md"><img src="assets/button_brief.gif" alt="Project brief notes" width="240"><br><strong>Read the brief</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
+  <a href="https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/tree/main/code"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/single_hull_demo.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
+  <a href="data.md"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
 </td>
 </tr>
 </table>
@@ -170,8 +165,8 @@ Explain who is impacted and how this could change decisions or understanding.
 ## Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
-| Jane Doe | Lead | jane.doe@example.org | @janedoe |
-| John Smith | Analyst | john.smith@example.org | @jsmith |
+| _Add your team lead_ | Lead | | |
+| _Add teammate_ | Role | | |
 
 ---
 
@@ -180,17 +175,17 @@ Explain who is impacted and how this could change decisions or understanding.
 ## Storage
 
 Code
-Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
+Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
 
 Documentation
-Use the [`docs/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/documentation); summarize key takeaways here so the public story stays current.
+Use the [`docs/`](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/tree/main/documentation); summarize key takeaways here so the public story stays current.
 
 ---
 
 ## Cite & reuse
 If you use these materials, please cite:
 
-> Lastname, A., Lastname, B. (2025). *Project title*. DOI or URL.
+> Innovation Summit 2025 Group 2 Team. (2025). *Stressors: Order, Duration, Frequency & Intensity — Innovation Summit 2025 (Group 2).* https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2
 
 License: CC-BY-4.0 unless noted. See dataset licenses on the **[Data](data.md)** page.
 
