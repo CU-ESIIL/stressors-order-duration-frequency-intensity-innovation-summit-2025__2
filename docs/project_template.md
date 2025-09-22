@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "OASIS: 3-Day Team Template"
-subtitle: "A friction-free guide for collaborative research sprints"
+title: "Stressors ODFI: 3-Day Team Template"
+subtitle: "Innovation Summit 2025 Group 2 playbook"
 hero_image: assets/template/hero.svg
 team_logo: assets/template/team-logo.svg
-contact_slack: "#oasis-project-room"
-contact_email: "team@example.org"
-repo_owner: "cu-esiil"
-repo_name: "Project_group_OASIS"
+contact_slack: "#innovation-summit-2025-group2"
+contact_email: "esiil@colorado.edu"
+repo_owner: "CU-ESIIL"
+repo_name: "stressors-order-duration-frequency-intensity-innovation-summit-2025__2"
 edit_path: "docs/project_template.md"
 ---
 

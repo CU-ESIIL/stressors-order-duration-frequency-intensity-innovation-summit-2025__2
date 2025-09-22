@@ -1,9 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
-title: "Project Group OASIS"
-version: "1.0.0"
-doi: 10.5281/zenodo.11166898
-date-released: 2025-09-10
+title: "Stressors: Order, Duration, Frequency & Intensity — Innovation Summit 2025 (Group 2)"
+abstract: >
+  Website, documentation, and reproducible workflows created by Innovation Summit 2025 Group 2 while
+  examining the order, duration, frequency, and intensity of environmental stressors.
+version: "0.1.0"
+date-released: 2025-02-01
+repository-code: https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2
 authors:
-  - family-names: Tuff
-    given-names: Ty
+  - name: Innovation Summit 2025 Group 2 Team

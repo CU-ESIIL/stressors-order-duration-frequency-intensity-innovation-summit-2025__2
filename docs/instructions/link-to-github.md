@@ -119,13 +119,14 @@ When you clone or set your remote, **always copy the SSH link** from GitHub, not
 2. Click the green **Code** button.
 3. In the pop‑up, choose the **SSH** tab.
 4. Copy the URL (looks like `git@github.com:ORG/REPO.git`).
+   *For this project the SSH link is* `git@github.com:CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2.git`.
 
    * ⚠️ Do **not** copy the HTTPS link (`https://github.com/...`), or GitHub will keep asking for a Personal Access Token.
 
 Example:
 
 ```
-git@github.com:CU-ESIIL/home.git
+git@github.com:CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2.git
 ```
 
 ### Check your remote inside JupyterHub
