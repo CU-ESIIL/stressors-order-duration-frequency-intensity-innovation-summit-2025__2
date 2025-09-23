@@ -27,18 +27,26 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 ## Day 1 — Define & Explore
 *Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes).*
 
-### Our product 📣
+### Our product(s) 📣
 - A decision-ready briefing with layered visuals that explain how stressor sequences escalate risk in two pilot watersheds.
+- Short term: 
+  - Identify our response!
+  - Two graphs illustrating the effects of disturbance
+  - Code for processing datasets to 1) identify tipping points from the datasets, and 2) calculate disturbacne severity, order, frequency, duration (SOFD)from datasets.
+  - Graph of Landfire filtered vegetaiton or region of choice
+- Long term: 
+  - Paper! Providing a case study of tipping point drivers in one sample system (forests?)
+  - Grant proposal!
 
 ### Our question(s) 📣
-- How does the order of fire, drought, and development stressors influence ecosystem recovery windows?
+- How does the SOFD of fire, drought, and development stressors influence ecosystem recovery windows?
 - Where do short, intense stress clusters lead to the greatest community or ecological vulnerability?
-- Who needs this information first (agency partners, community groups, funders) to take action?
+- LT Who needs this information first (agency partners, community groups, funders) to take action?
 
 ### Hypotheses / intentions [Optional: probably not relevant if you are creating an educational tool]
 - We think that the spacing between stressors is as important as their intensity for predicting recovery needs.
-- We intend to test whether compact clusters of high-intensity events correlate with emergency management triggers.
-- We will know we’re onto something if we can visualize at least two contrasting stressor sequences with clear decision cues.
+- We intend to test whether compact clusters of high-intensity events correlate with regime shifts? .
+
 
 ### Why this matters (the “upshot”) 📣
 Colorado resource managers need fast, visual explanations of how multiple stressors overlap. By translating the order, duration,
@@ -57,7 +65,8 @@ ecosystems.
 *Caption: What this shows and why it’s useful today.*
 
 > **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
-
+[emergency management triggers]
+> - We will know we’re onto something if we can visualize at least two contrasting stressor sequences with clear decision cues.
 ---
 
 ## Day 2 — Data & Methods
