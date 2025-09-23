@@ -60,9 +60,14 @@ ecosystems.
 
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
-![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
-[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/day1_whiteboard.jpg)
-*Caption: What this shows and why it’s useful today.*
+![Whiteboard brainstorm](assets/day1_whiteboard.jpg)
+[Raw photo location: day1_whiteboard.jpg](assets/day1_whiteboard.jpg)
+*Caption: Day 1 brainstorm.*
+
+![Norms](assets/day1_norms.jpg)
+[Raw photo location: day1_norms.jpg](assets/day1_norms.jpg)
+*Caption: Caption: Day 1 norms.*
+
 
 > **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
 [emergency management triggers]
