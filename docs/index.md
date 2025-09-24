@@ -78,6 +78,14 @@ ecosystems.
 *Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
 ### Data sources we’re exploring 📣
+<!-- EDIT: Link each source; add size/notes if relevant. -->
+- **Source A**
+  ![Pattern revealed during exploration](assets/explore_data_plot.png)
+[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/explore_data_plot.png)
+  *Snapshot showing initial data patterns.*
+
+  - Source B — link and 1-line description
+    
 - **USGS WaterWatch streamflow anomalies** — daily discharge for candidate Colorado headwaters basins.
 
   ![Streamflow departures from normal](assets/explore_data_plot.png)
@@ -87,10 +95,20 @@ ecosystems.
 - **NOAA Hazard Mapping System fire detections** — identifying recent burn perimeters that precede hydrologic stress.
 
 ### Methods / technologies we’re testing 📣
+- Approach 1 (e.g., time-series break detection)
+- Approach 2 (e.g., random forest on features)
+- Visualization (e.g., map tiles, small multiples)
+
+### Methods / technologies we’re testing 📣
 - Sequence analysis of multi-hazard timelines (fire → drought → flood).
 - Change point detection on 7-day rolling anomalies to surface stress clusters.
 - Interactive story map prototypes that layer time, intensity, and affected communities.
 
+### Challenges identified
+- Data gaps / quality issues
+- Method limitations / compute constraints
+- Open questions we need to decide on
+  
 ### Challenges identified
 - Aligning spatial footprints between hydrologic gauges, fire perimeters, and community boundaries.
 - Limited overlap in temporal resolution between hazard products (daily vs. sub-daily events).
@@ -126,23 +144,24 @@ ecosystems.
 [Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-- Streamflow recovery times lengthen by >30% when drought follows wildfire within a single season.
-- Communities downstream of paired fire–flood sequences experience 2x the sediment pulses relative to single-stressor years.
-- Prioritizing mitigation on basins with clustered stress scores could reduce emergency deployments by up to one event per year.
+<!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
+- Headline 1 — what, where, how much
+- Headline 2 — change/trend/contrast
+- Headline 3 — implication for practice or policy
 
 ### Visuals that tell the story 📣
 <!-- EDIT: Swap visuals; prioritize clarity. -->
 ![Lead conclusion visual placeholder](assets/fire_hull.png)
 [Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/fire_hull.png)
-*Visual 1.* Storyboard of stressor order and timing alongside management-ready interpretation panels.
+*Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
 
 ![Supporting panels for key insights](assets/hull_panels.png)
 [Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/hull_panels.png)
-*Visual 2.* Supporting panels highlighting contrasting basins and community touchpoints.
+*Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
 
 ![Complementary result figure placeholder](assets/main_result.png)
 [Raw photo location: main_result.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/main_result.png)
-*Visual 3.* Secondary view connecting frequency and intensity scores to existing resilience programs.
+*Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
 
 <iframe
   title="Short explainer video (optional)"
@@ -152,9 +171,9 @@ ecosystems.
   allowfullscreen></iframe>
 
 ### What’s next? 📣
-- Validate stressor sequences for an additional basin using community-provided datasets.
-- Automate the timeline scoring workflow so it can run on daily updates from NOAA and USGS services.
-- Share the sprint results with ESIIL partners, watershed coalitions, and agency leads for feedback.
+- Immediate follow-ups
+- What we would do with one more week/month
+- Who should see this next
 
 ---
 
@@ -179,8 +198,8 @@ ecosystems.
 ## Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
-| _Add your team lead_ | Lead | | |
-| _Add teammate_ | Role | | |
+| Jane Doe | Lead | jane.doe@example.org | @janedoe |
+| John Smith | Analyst | john.smith@example.org | @jsmith |
 
 ---
 
