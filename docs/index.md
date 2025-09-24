@@ -77,39 +77,47 @@ ecosystems.
 ## Day 2 — Data & Methods
 *Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
+Questions:
+How does the SOFD of fire, drought, and their interaction influence forest shifts to non-forest between 1999 and 2024 in the Southern Rockies ecoregion?
+How does the SOFD of fire, drought, and their interaction influence forest recovery between 1999 and 2024 in the Southern Rockies ecoregion?
+
+A) Did a forest shift (within ten years after disturbance or their interactions) and what is the system it shifted to?
+B) If forest didn't shift to non-forest, how long did it take to recover to forest?
+
+Spatial extent: a small part of the ecoregion
+Spatial resolution: 30x30m
+Temporal extent: 1999-2024
+Temporal resolution: Annual
+
 ### Data sources we’re exploring 📣
 <!-- EDIT: Link each source; add size/notes if relevant. -->
-- **Source A**
-  ![Pattern revealed during exploration](assets/explore_data_plot.png)
-[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/explore_data_plot.png)
-  *Snapshot showing initial data patterns.*
+ *Snapshot showing initial data patterns.*
 
-  - Source B — link and 1-line description
+Predictors: Frequency, order, duration, severity of
+A) Fire, insect outbreaks from LANDFIRE
+B) Drought measured as SPEI from PRISM
+C) Fire severity from MTBS
+
+Projection: Albers Equal Area Conic projection
     
-- **USGS WaterWatch streamflow anomalies** — daily discharge for candidate Colorado headwaters basins.
-
-  ![Streamflow departures from normal](assets/explore_data_plot.png)
-  [Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/explore_data_plot.png)
-  *Snapshot showing initial flow departures during drought periods.*
-
-- **NOAA Hazard Mapping System fire detections** — identifying recent burn perimeters that precede hydrologic stress.
 
 ### Methods / technologies we’re testing 📣
-- Approach 1 (e.g., time-series break detection)
-- Approach 2 (e.g., random forest on features)
+- Approach 1 - generalized linear mixed models with a binomial response
+- Approach 2 - generalized linear mixed model with a continuous response
 - Visualization (e.g., map tiles, small multiples)
 
-### Methods / technologies we’re testing 📣
+### Methods / technologies we’re testing 📣 /NA
 - Sequence analysis of multi-hazard timelines (fire → drought → flood).
 - Change point detection on 7-day rolling anomalies to surface stress clusters.
 - Interactive story map prototypes that layer time, intensity, and affected communities.
 
 ### Challenges identified
-- Data gaps / quality issues
-- Method limitations / compute constraints
-- Open questions we need to decide on
+- Gaps in the data
+- Compute constraints
+- Ensuring models correctly capture what's happening
+- Scaling up
   
-### Challenges identified
+### Challenges identified/NA
 - Aligning spatial footprints between hydrologic gauges, fire perimeters, and community boundaries.
 - Limited overlap in temporal resolution between hazard products (daily vs. sub-daily events).
 - Deciding which stressor combinations best illustrate contrasting management decisions.
@@ -126,7 +134,7 @@ ecosystems.
 [Raw photo location: change.gif](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/change.gif)
 *Figure 2.* Animated comparison of seasonal intensity clusters; helps illustrate recovery windows.
 
-#### Interactive map (iframe)
+#### Interactive map (iframe)/NA
 <iframe
   title="Study area (OpenStreetMap)"
   src="https://www.openstreetmap.org/export/embed.html?bbox=-105.35%2C39.90%2C-105.10%2C40.10&layer=mapnik&marker=40.000%2C-105.225"
