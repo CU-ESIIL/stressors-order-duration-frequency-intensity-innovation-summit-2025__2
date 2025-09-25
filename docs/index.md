@@ -127,6 +127,30 @@ C) Fire severity from MTBS
 ![Interactive exploratory map of Hayman Fire](assets/SouthernRockiesStateChange.png)
 [ESIIL 2025 Earth Engine App](https://ee-anatarano.projects.earthengine.app/view/esiil2025)
 
+
+#### DAG
+![Initial DAG](assets/whiteboard_day2.JPG)
+*Figure 3.* Initial DAG.
+
+#### Thought process day 2
+![Whiteboard](assets/dataset_day2.JPG)
+*Figure 4.* Datasets, response, workflow.
+
+  
+### **Next steps:**   
+**Short term**  
+Continue processing the data to arrive at final responses and predictors  
+Refine the DAG  
+Run models   
+Scale to Southern Rockies/USA
+**Moderate term**  
+Submit a WG proposal with Group 3  
+Include more disturbances
+Write up our results and submit as a manuscript  
+**Long term**   
+Submit a grant proposal with Group 3   
+
+
 ---
 
 ## Final Share Out — Insights & Sharing 
