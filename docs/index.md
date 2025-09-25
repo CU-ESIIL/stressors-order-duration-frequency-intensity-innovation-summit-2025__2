@@ -9,9 +9,9 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 ![Wide banner of the study system](assets/hero.jpg)
 [Raw photo location: hero.jpg](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/hero.jpg)
 
-**One sentence on impact:** In 3 days we will prototype decision-ready visuals that show how the order, duration, frequency, and intensity of watershed stressors stack up for Colorado headwaters.
+**One sentence on impact:** In 3 days we will determine a workflow to evaluate how the order, duration, frequency, and intensity of disturbances affect the likelihood of regime shifts from forests to nonforests.
 
-**[Project brief (PDF)](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdfa) · [View shared code](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/code/prism_quicklook.py) · [Data & access](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/code/prism_quicklook.py)**
+[View shared code](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/code/prism_quicklook.py) · [Data & access](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/code/prism_quicklook.py)**
 
 > **About this site:** This public log captures our Innovation Summit sprint. Update it directly in GitHub (open a file → ✏️ → Commit changes) so the homepage always reflects the latest thinking.
 
@@ -28,18 +28,17 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 *Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes).*
 
 ### Our product(s) 📣
-- A decision-ready briefing with layered visuals that explain how stressor sequences escalate risk in two pilot watersheds.
-- Short term: 
+- **Short term**: 
   - Identify our response!
   - Two graphs illustrating the effects of disturbance
   - Code for processing datasets to 1) identify tipping points from the datasets, and 2) calculate disturbacne severity, order, frequency, duration (SOFD)from datasets.
   - Graph of Landfire filtered vegetaiton or region of choice
-- Long term: 
+- **Long term**: 
   - Paper! Providing a case study of tipping point drivers in one sample system (forests?)
   - Grant proposal!
 
 ### Our question(s) 📣
-- How does the SOFD of fire, drought, and development stressors influence ecosystem recovery windows?
+- How does the FODS of fire, drought, and development stressors influence ecosystem recovery windows?
 - Where do short, intense stress clusters lead to the greatest community or ecological vulnerability?
 - LT Who needs this information first (agency partners, community groups, funders) to take action?
 
@@ -52,11 +51,6 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 Colorado resource managers need fast, visual explanations of how multiple stressors overlap. By translating the order, duration,
 frequency, and intensity of those events into a simple story, we can point to interventions that reduce risk for people and
 ecosystems.
-
-### Inspirations (papers, datasets, tools)
-- Publication: [IPCC AR6 — Impacts, Adaptation and Vulnerability](https://www.ipcc.ch/report/ar6/wg2/)
-- Dataset portal: [USGS Water Data for the Nation](https://waterdata.usgs.gov/nwis)
-- Tool/tech: [NOAA Climate Explorer](https://crt-climate-explorer.nemac.org/)
 
 ### Field notes / visuals
 <!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
@@ -77,17 +71,24 @@ ecosystems.
 ## Day 2 — Data & Methods
 *Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
-Questions:
-How does the SOFD of fire, drought, and their interaction influence forest shifts to non-forest between 1999 and 2024 in the Southern Rockies ecoregion?
-How does the SOFD of fire, drought, and their interaction influence forest recovery between 1999 and 2024 in the Southern Rockies ecoregion?
+**Study Area:Southern Rockies Ecoregion** 
+Spatial extent: a small part of the ecoregion  
+Spatial resolution: 30x30m  
+Temporal extent: 1999-2024  
+Temporal resolution: Annual  
+
+**Response Variables**
+1. Was there a regime shift? (Change from forest to nonforest that did not recover within 10 years)
+2. If there WAS NOT a regime shift, how long did forests take to recover? 
+3. If there WAS a regime shift, what system did the forest transition to? (e.g. grassland, shrubs) 
+
+**Questions:**
+- How does the FODS of fire, drought, insects, and their interaction influence forest shifts to non-forest between 1999 and 2024 in the Southern Rockies ecoregion?
+- How does the FODS of fire, drought,  insects, and their interaction influence forest recovery between 1999 and 2024 in the Southern Rockies ecoregion?
 
 A) Did a forest shift (within ten years after disturbance or their interactions) and what is the system it shifted to?
 B) If forest didn't shift to non-forest, how long did it take to recover to forest?
 
-Spatial extent: a small part of the ecoregion
-Spatial resolution: 30x30m
-Temporal extent: 1999-2024
-Temporal resolution: Annual
 
 ### Data sources we’re exploring 📣
 <!-- EDIT: Link each source; add size/notes if relevant. -->
