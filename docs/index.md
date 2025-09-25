@@ -133,7 +133,7 @@ C) Fire severity from MTBS
 
 
 #### SPI
-![Initial SPI from PRISM](assets/SPI_plot.jpg)
+![Initial SPI from PRISM](assets/SPI_plot.jpeg)
 *Figure 3.* Initial SPI from PRISM.
 
 
