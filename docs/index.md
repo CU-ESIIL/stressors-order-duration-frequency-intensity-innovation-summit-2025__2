@@ -127,14 +127,23 @@ C) Fire severity from MTBS
 ![Interactive exploratory map of Hayman Fire](assets/SouthernRockiesStateChange.png)
 [ESIIL 2025 Earth Engine App](https://ee-anatarano.projects.earthengine.app/view/esiil2025)
 
+#### Landfire disturbance history
+![Landfire disturbance](assets/Disturbance_History.jpg)
+*Figure 3.* Landfire disturbance.
+
+
+#### SPI
+![Initial SPI from PRISM](assets/SPI_plot.jpg)
+*Figure 3.* Initial SPI from PRISM.
+
 
 #### DAG
 ![Initial DAG](assets/whiteboard_day2.JPG)
-*Figure 3.* Initial DAG.
+*Figure 4.* Initial DAG.
 
 #### Thought process day 2
 ![Whiteboard](assets/dataset_day2.JPG)
-*Figure 4.* Datasets, response, workflow.
+*Figure 5.* Datasets, response, workflow.
 
   
 ### **Next steps:**   
