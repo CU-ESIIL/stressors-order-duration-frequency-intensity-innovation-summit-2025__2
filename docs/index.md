@@ -119,19 +119,13 @@ C) Fire severity from MTBS
 ![Hayman Fire, June 8, 2002 - land cover change](assets/lcChange99_24.png)
 *Figure 1.* Area containing the Hayman Fire showing changes in land cover from 1999 to 2024.
 
-#### Animated change (GIF)
-![Seasonal shifts in stress intensity](assets/change.gif)
-[Raw photo location: change.gif](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/change.gif)
-*Figure 2.* Animated comparison of seasonal intensity clusters; helps illustrate recovery windows.
+#### Pixel State Change for Hayman Fire Area (Using NLCD 2019)
+![Plot of land cover change for a pixel in chosen area](assets/lcChange01_19_NLCD19.png)
+*Figure 2.* Plot of land cover change for a pixel in chosen area.
 
-#### Interactive map (iframe)/NA
-<iframe
-  title="Study area (OpenStreetMap)"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-105.35%2C39.90%2C-105.10%2C40.10&layer=mapnik&marker=40.000%2C-105.225"
-  width="100%" height="360" frameborder="0"></iframe>
-<p><a href="https://www.openstreetmap.org/?mlat=40.000&mlon=-105.225#map=12/40.0000/-105.2250">Open full map</a></p>
-
-> If an embed doesn’t load, put the normal link directly under it.
+#### Interactive map
+![Interactive exploratory map of Hayman Fire](assets/SouthernRockiesStateChange.png)
+[ESIIL 2025 Earth Engine App](https://ee-anatarano.projects.earthengine.app/view/esiil2025)
 
 ---
 
