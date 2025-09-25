@@ -2,12 +2,12 @@
 
 <p style="text-align: right;"><a href="https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
 
+
 <!-- =========================================================
 HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
-![Wide banner of the study system](assets/hero.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/hero.jpg)
+![Hayman Fire, June 8, 2002 - land cover change](assets/lcChange99_24.png)
 
 **One sentence on impact:** In 3 days we will determine a workflow to evaluate how the order, duration, frequency, and intensity of disturbances affect the likelihood of regime shifts from forests to nonforests.
 
@@ -71,11 +71,12 @@ ecosystems.
 ## Day 2 — Data & Methods
 *Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
-**Study Area:Southern Rockies Ecoregion** 
+**Study Area: Southern Rockies Ecoregion**   
 Spatial extent: a small part of the ecoregion  
 Spatial resolution: 30x30m  
 Temporal extent: 1999-2024  
 Temporal resolution: Annual  
+Projection: Albers Equal Area Conic projection (EPSG 9822)
 
 **Response Variables**
 1. Was there a regime shift? (Change from forest to nonforest that did not recover within 10 years)
@@ -86,49 +87,37 @@ Temporal resolution: Annual
 - How does the FODS of fire, drought, insects, and their interaction influence forest shifts to non-forest between 1999 and 2024 in the Southern Rockies ecoregion?
 - How does the FODS of fire, drought,  insects, and their interaction influence forest recovery between 1999 and 2024 in the Southern Rockies ecoregion?
 
-A) Did a forest shift (within ten years after disturbance or their interactions) and what is the system it shifted to?
-B) If forest didn't shift to non-forest, how long did it take to recover to forest?
-
 
 ### Data sources we’re exploring 📣
 <!-- EDIT: Link each source; add size/notes if relevant. -->
  *Snapshot showing initial data patterns.*
 
-Predictors: Frequency, order, duration, severity of
-A) Fire, insect outbreaks from LANDFIRE
-B) Drought measured as SPEI from PRISM
-C) Fire severity from MTBS
-
-Projection: Albers Equal Area Conic projection
-    
-
+Predictors: Frequency, order, duration, severity of   
+A) Fire, insect outbreaks from LANDFIRE  
+B) Drought measured as SPEI from PRISM  
+C) Fire severity from MTBS  
+  
 ### Methods / technologies we’re testing 📣
-- Approach 1 - generalized linear mixed models with a binomial response
-- Approach 2 - generalized linear mixed model with a continuous response
+- Approach 1 - generalized linear (mixed) models with a binomial response
+- Approach 2 - generalized linear (mixed) model with a continuous response
 - Visualization (e.g., map tiles, small multiples)
 
-### Methods / technologies we’re testing 📣 /NA
-- Sequence analysis of multi-hazard timelines (fire → drought → flood).
-- Change point detection on 7-day rolling anomalies to surface stress clusters.
-- Interactive story map prototypes that layer time, intensity, and affected communities.
-
-### Challenges identified
-- Gaps in the data
-- Compute constraints
-- Ensuring models correctly capture what's happening
-- Scaling up
   
-### Challenges identified/NA
-- Aligning spatial footprints between hydrologic gauges, fire perimeters, and community boundaries.
-- Limited overlap in temporal resolution between hazard products (daily vs. sub-daily events).
-- Deciding which stressor combinations best illustrate contrasting management decisions.
+### Challenges identified
+- We speak different languages - coding, disciplines, chosen technologies
+- Gaps in the data
+- Computational constraints - working with big data is hard!
+- Ensuring models accurately represent our understanding of the system (DAGS)
+- Scaling up
+- Identifying final predictors (How do we calculate FODS for each disturbance)
+- Defining regime shift (Is 10 years long enough?) Need theoretical frameworks!
+  
 
 ### Visuals
 <!-- EDIT: Swap examples; keep file sizes modest. -->
-#### Static figure
-![Sequence of stressors for the Poudre River pilot basin](assets/figure1.png)
-[Raw photo location: figure1.png](https://github.com/CU-ESIIL/stressors-order-duration-frequency-intensity-innovation-summit-2025__2/blob/main/docs/assets/figure1.png)
-*Figure 1.* Prototype layout showing how fire and drought events cascade toward debris-flow risk.
+#### Study Area Subset
+![Hayman Fire, June 8, 2002 - land cover change](assets/lcChange99_24.png)
+*Figure 1.* Area containing the Hayman Fire showing changes in land cover from 1999 to 2024.
 
 #### Animated change (GIF)
 ![Seasonal shifts in stress intensity](assets/change.gif)
@@ -232,6 +221,20 @@ If you use these materials, please cite:
 License: CC-BY-4.0 unless noted. See dataset licenses on the **[Data](data.md)** page.
 
 ---
+
+
+
+### Challenges identified/NA
+- Aligning spatial footprints between hydrologic gauges, fire perimeters, and community boundaries.
+- Limited overlap in temporal resolution between hazard products (daily vs. sub-daily events).
+- Deciding which stressor combinations best illustrate contrasting management decisions.
+
+### Methods / technologies we’re testing 📣 /NA
+- Sequence analysis of multi-hazard timelines (fire → drought → flood).
+- Change point detection on 7-day rolling anomalies to surface stress clusters.
+- Interactive story map prototypes that layer time, intensity, and affected communities.
+
+
 
 <!-- EDIT HINTS
 - Upload images to docs/assets/ and reference as assets/filename.png
